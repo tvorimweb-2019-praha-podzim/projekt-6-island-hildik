@@ -1,6 +1,9 @@
 /* nejsme vcerejsi, pouzivame moderni box model */
 *, :after, :before { box-sizing: border-box; }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     margin: 0;
@@ -111,6 +114,10 @@ body {
         padding: 25px ;
         margin: 0;
     }
+        /* p::first-letter {
+            padding-left: 4em;
+        } */
+
         h2::after {
             content: " ";
             display: block;
